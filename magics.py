@@ -18,6 +18,7 @@ def go_to(command):
     mc.player.setPos(pos[0], pos[1], pos[2])
     where_am_i()
 
+
 def where_am_i():
     pos = mc.player.getTilePos()
     name = mc.player.name
