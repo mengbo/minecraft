@@ -2,3 +2,4 @@
 /client
 .python-version
 .vscode/
+__pycache__/
