@@ -5,7 +5,7 @@ from pathlib import Path
 
 home = str(Path.home())
 file = Path("%s/Library/Application Support/%s/logs/latest.log" %
-        (home, "for Mc-launcher.com"))
+        (home, "tlauncher/for Mc-launcher.com"))
 if not file.exists():
     file = Path("%s/Library/Application Support/%s/logs/latest.log" %
             (home, "minecraft"))
